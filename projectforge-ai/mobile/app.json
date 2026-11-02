@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ProjectForge AI",
+    "slug": "projectforge-ai",
+    "owner": "monishhhh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "projectforge",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#020617"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.projectforge.app"
+    },
+    "android": {
+      "package": "ai.projectforge.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#020617"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7d440d7f-5331-4c93-abe7-640f0e09a0fe"
+      }
+    }
+  }
+}
